@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ATM</title>
+   <link rel="stylesheet" href="css/atm21.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+             <div id="main">
+                <div id='backgro'></div>
+              </div>
+              <span id="atm">Insert Your ATM Card Here<div class="atm" onclick="atm()"><hr class="hr"></div></span>
+              <span id="home">
+                <span class="ti" id="we">THE WRIGHT ATM</span><br>
+                <!-- <span class='req'>Insert Your ATM Card</span> -->
+              </span>
+              <span id="pin">
+                <input type="password" maxlength="4" placeholder="Type Your Pin" id="pn" ></input><br>
+              <!-- <Button class="sub" onclick=pin()>Submit</Button>
+              <button onclick="bac()" id="bac">Back</button> -->
+              </span>
+              <span id="welcome">
+                <h3></h3><span id="name"></span>  
+              </span>
+              <span id="buttons">
+              <button id="withdr" class="btn btn-primary" onclick="bank('with')">Withdrawl</button><br>
+              <button id="deposit" onclick="bank('depo')" class="btn btn-primary">Deposit</button><br>
+              <button id="balance" onclick="bank('balan')"  class="btn btn-primary">Balance</button><br>
+                <button id="passw" onclick="bank('pass')"  class="btn btn-primary">Password Change</button>
+              </span>
+              <span id="cash">
+                <input type="number" id="money"></input>
+                <button id="submi" onclick="sub()">Submit</button>
+              <button onclick="back()" id="back">Back</button>
+              </span>
+              <!-- <span id="with">Withdrawl</span>
+              <span id="depo">Deposit</span>
+              <span id="balan">Balance</span>
+              <span id="pass">Password</span> -->
+              <span id="balac"></span>
+            
+
+</body>
+</html>
